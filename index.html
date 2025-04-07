@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Website Responsive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about_section">About</a></li>
+                <li><a href="#services_section">Services</a></li>
+                <li><a href="#contact_section">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Responsive Website</h1>
+        <p>We have used Pure Html and CSS to dsign our Responsive Website.</p>
+        <a href="#contact_section" class="btn">Get Started</a>
+    </section>
+
+    <!-- Introduction Section -->
+    <section id="about_section" class="about">
+        <h2>About Us</h2>
+        
+        <p>
+            <b> Introduction </b>
+            <br> I am Muhammad Junaid student of Software Engineering 6th semester in Sindh Madressa-tul-Islam  University. I'm currently  working on .Net  framework, focusing on building user-friendly applications. 
+        </p>
+    </section>
+
+    <!-- Services Section -->
+    <!-- Services Section -->
+    <section id="services_section" class="services">
+        <h2>Our Services</h2>
+        <div class="services-wrapper">
+            <div class="service-box">
+                <img src="pictures/website.jpg" alt="Web Development">
+                <h3>Web Development</h3>
+                <p>We create functional and responsive websites using modern technologies like Django, HTML, CSS, and
+                    JavaScript.</p>
+            </div>
+            <div class="service-box">
+                <img src="pictures/seo.jpg" alt="SEO">
+                <h3>SEO</h3>
+                <p>Boost your website's visibility in search engines and drive more organic traffic with our expert SEO
+                    strategies.</p>
+            </div>
+            <div class="service-box">
+                <img src="pictures/app.jpg" alt="App Development">
+                <h3>App Development</h3>
+                <p>We develop mobile apps for Android and iOS with engaging UI/UX, built using efficient frameworks and
+                    tools.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <ul class="testimonial-list">
+            <li>"Great service and fast delivery." - Iqra Usman</li>
+            <li>"Very helpful team, good experience." - Shafqat Cheema</li>
+            <li>"Website performance improved a lot!" - Sania Mirza</li>
+            <li>"Affordable and reliable work." - Hourab Aamir </li>
+            <li>"Satisfied with the final results." - Kazmi Yousaf</li>
+        </ul>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact_section" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <div>
+                <label for="name"> Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Description here...." required></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
